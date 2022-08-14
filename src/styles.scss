@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Usage
+.large-container {
+  @include make-container(20%);
+}
