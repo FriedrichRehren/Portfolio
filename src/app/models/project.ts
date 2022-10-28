@@ -1,4 +1,4 @@
-import { ProjectState } from "../enums/project-state";
+import { ProjectState } from "./project-state";
 
 export class Project {
   private id: number;
