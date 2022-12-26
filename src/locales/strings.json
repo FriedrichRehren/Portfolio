@@ -1,0 +1,26 @@
+{
+  "locale": "en",
+  "translations": {
+    "nav-about": "About",
+    "nav-projects": "Projects",
+    "nav-domains": "Domains",
+    "nav-contact": "Contact",
+    
+    "about-anchor": "about",
+    "projects-anchor": "projects",
+    "domains-anchor": "domains",
+
+    "about-heading": "Friedrich Rehren",
+    "about-paragraph1": "I am a developer and enthusiast with more than eight years of experience in developing custom software solutions.",
+    "about-paragraph2": "Creating solutions to benefit everyday tasks and ease workflows has always been my strive.",
+    "about-paragraph3": "I created small CLI-based programs to automate different tasks. Most of which can be found on my <a href=\"https://github.com/FriedrichRehren\" target=\"_blank\" class=\"text-reset\">GitHub</a>.",
+    "about-paragraph4": "I am employed as a freelancer at the <a href=\"https://deutausges.de/\" target=\"_blank\" class=\"text-reset\">Deutsche&nbsp;Auslandsgesellschaft</a>, where I developed multiple internal solutions and built out the networking and server infrastructure. Since June of 2022 I lead the technical preparations for the <a href=\"https://idt-2025.de/\" target=\"_blank\" class=\"text-reset\">IDT&nbsp;2025</a>&nbsp;&ndash;&nbsp;a one&#8209;week&#8209;long conference of german teachers from around the world.",
+    "about-image-alt": "An image of myself",
+
+    "projects-heading": "Projects",
+    "projects-paragraph": "A list of my completed and ongoing projects.",
+
+    "domains-heading": "Domains",
+    "domains-paragraph": "A list of the domains I own, including a brief explanation of what they are used for."
+  }
+}

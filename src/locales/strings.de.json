@@ -1,0 +1,26 @@
+{
+  "locale": "de",
+  "translations": {
+    "nav-about": "Über Mich",
+    "nav-projects": "Projekte",
+    "nav-domains": "Domains",
+    "nav-contact": "Kontakt",
+    
+    "about-anchor": "ueber-mich",
+    "projects-anchor": "projekte",
+    "domains-anchor": "domains",
+
+    "about-heading": "Friedrich Rehren",
+    "about-paragraph1": "Ich bin ein Entwickler und Enthusiast mit mehr als acht Jahren Erfahrung in der Entwicklung kundenspezifischer Softwarelösungen.",
+    "about-paragraph2": "Es war schon immer mein Bestreben, Lösungen zu schaffen, die alltäglichen Aufgaben übernehmen und Arbeitsabläufe erleichtern.",
+    "about-paragraph3": "Ich habe kleine CLI-basierte Programme erstellt, um verschiedene Aufgaben zu automatisieren. Die meisten davon sind auf meinem <a href=\"https://github.com/FriedrichRehren\" target=\"_blank\" class=\"text-reset\">GitHub</a> zu finden.",
+    "about-paragraph4": "Ich bin als freier Mitarbeiter bei der <a href=\"https://deutausges.de/\" target=\"_blank\" class=\"text-reset\">Deutschen&nbsp;Auslandsgesellschaft</a> angestellt, wo ich mehrere interne Lösungen entwickelt, sowie die Netzwerk- und Serverinfrastruktur ausgebaut habe. Seit Mitte 2022 leite ich die technischen Vorbereitungen für die <a href=\"https://idt-2025.de/\" target=\"_blank\" class=\"text-reset\">IDT&nbsp;2025</a>&nbsp;&ndash;&nbsp;eine einwöchige Konferenz von Deutschlehrern aus aller Welt.",
+    "about-image-alt": "Ein Bild von mir",
+
+    "projects-heading": "Projekte",
+    "projects-paragraph": "Eine Aufzählung meiner abgeschlossenen und laufenden Projekte.",
+    
+    "domains-heading": "Domains",
+    "domains-paragraph": "Eine Aufzählung der Domains, die ich besitze inklusive einer kurzen Erläuterung des Verwendungszwecks."
+  }
+}
