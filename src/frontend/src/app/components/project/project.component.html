@@ -1,0 +1,12 @@
+<div class="feature col position-relative" style="width: 350px;">
+    <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+        <img class="rounded" src="{{imageUrl}}" width="350" height="250">
+    </div>
+    <h3 class="fs-3">{{localeName}}</h3>
+    <p [innerHtml]=localeDescription class="pb-4"></p>
+    
+    <a *ngIf="projectUrl !== null" href="{{projectUrl}}" target="_blank" 
+    class="fa-extLink fa-pr-5 text-muted position-absolute bottom-0 end-0">
+        <fa-icon [icon]="externalLinkIcon"></fa-icon>
+    </a>
+</div>

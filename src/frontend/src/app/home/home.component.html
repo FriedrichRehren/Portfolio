@@ -1,0 +1,54 @@
+<section i18n-id="@@about-anchor" id="about" class="border-bottom">
+    <div class="px-4 pt-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <h1 i18n="@@about-heading" class="display-5 fw-bold lh-1 mb-3">Friedrich Rehren</h1>
+            <div class="col-10 col-sm-8 col-lg-5 mt-0">
+                <img src="assets/pictures/portfolio.jpg" class="d-block mx-lg-auto my-lg-auto img-fluid" i18n-alt="@@about-image-alt" alt="An image of myself" width="800" height="1000">
+            </div>
+            <div class="col-lg-7">
+                <p class="lead" [innerHtml]=aboutParagraph1></p>
+                <p class="lead" [innerHtml]=aboutParagraph2></p>
+                <p class="lead" [innerHtml]=aboutParagraph3></p>
+                <p class="lead" [innerHtml]=aboutParagraph4></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section i18n-id="@@projects-anchor" id="projects" class="border-bottom">
+    <div class="px-4 pt-5">
+        <div class="py-5">
+            <h2 i18n="@@projects-heading" class="header pb-2">Projects</h2>
+            <p i18n="@@projects-paragraph">A list of my completed and ongoing projects.</p>
+    
+            <div class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 g-4 py-5">
+                <ng-container *ngIf="projects$ | async as projects; else loading">
+                    <ng-template ngFor let-project [ngForOf]="projects">
+                        <app-project *ngIf="project.state !== 0" [name]="project.name" [description]="project.description" [imageUrl]="project.imageUrl" [projectUrl]="project.projectUrl"></app-project>
+                    </ng-template>
+                </ng-container>
+
+                <ng-template #loading i18n="@@loading">Hang tight, loading data from api...</ng-template>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section i18n-id="@@domains-anchor" id="domains">
+    <div class="px-4 pt-5">
+        <div class="py-5">
+            <h2 i18n="@@domains-heading" class="header pb-2">Domains</h2>
+            <p i18n="@@domains-paragraph">A list of the domains I own, including a brief explanation of what they are used for.</p>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-4 py-5">
+                <ng-container *ngIf="domains$ | async as domains; else loading">
+                    <ng-template ngFor let-domain [ngForOf]="domains">
+                        <app-domain [name]="domain.name" [description]="domain.description"></app-domain>
+                    </ng-template>
+                </ng-container>
+
+                <ng-template #loading i18n="@@loading">Hang tight, loading data from api...</ng-template>
+            </div>
+        </div>
+    </div>
+</section>
